@@ -1,0 +1,32 @@
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: 17vw;
+    padding: 3vw 3vw;
+    transition: .2s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card h4{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+.card p{
+    padding-top: 1rem;
+    letter-spacing: 2px;
+}
+.card .img{
+    max-width: 16vw ;
+}
+.img img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+

@@ -1,0 +1,74 @@
+ [
+    {
+      "id": 1,
+      "title": "Food for adult cats",
+      "price": 9.99,
+      "img": "./images/FoodForAdultCats.png",
+      "category": "Cat Feeding",
+      "description": "Our premium dry cat food is specially formulated to meet the nutritional needs of adult cats of all breeds and sizes. Made with high-quality ingredients and free from artificial preservatives, this cat food provides a balanced and complete diet to keep your cat healthy and happy. Our recipe includes essential nutrients, vitamins, and minerals that support your cat's overall health, including a healthy immune system, strong bones and teeth, and a shiny coat.",
+      "stock": 25
+    },
+    {
+      "id": 2,
+      "title": "Cat bowl with non-slip base",
+      "price": 7.99,
+      "img": "./images/CatBowl.png",
+      "category": "Cat Feeding",
+      "description": "This stainless steel feeder is the ideal complement for your cat. With its non-slip base, you can be sure that your cat will not spill food or water on the floor while eating. Plus, its strong and durable design makes it perfect for use indoors or out. The bowl's size is perfect for cats of all breeds and sizes, and its smooth, easy-to-clean surface makes it a hygienic option for your cat.",
+      "stock": 15
+    },
+    {
+      "id": 3,
+      "title": "Long lasting cat litter",
+      "price": 14.99,
+      "img": "./images/CatLitter.png",
+      "category": "Cat Hygiene products",
+      "description": "Our long-lasting cat litter is the perfect solution for busy cat owners. With its superior odor absorption capacity, it helps keep your home smelling fresh and clean. Made from high-quality, natural materials, this litter is gentle on your cat's paws and safe for the environment. Its unique formula is designed to clump quickly and effectively, making it easy to clean and maintain your cat's litter box.",
+      "stock": 20
+    },
+    {
+      "id": 4,
+      "title": "Cat Teeth Cleaning Kit",
+      "price": 12.99,
+      "img": "./images/TheetCleaningKit.png",
+      "category": "Cat Hygiene products",
+      "description": "Our cat teeth cleaning kit is an essential tool for maintaining your cat's oral health. This kit includes everything you need to keep your cat's teeth clean and free of plaque and tartar, including a toothbrush, finger brush, and toothpaste specially formulated for cats. With regular use, this kit can help prevent dental problems such as bad breath, gum disease, and tooth decay. Its easy-to-use design makes cleaning your cat's teeth a breeze, and its gentle formula is safe and effective for cats of all ages.",
+      "stock": 10
+    },
+    {
+      "id": 5,
+      "title": "Interactive cat toy",
+      "price": 6.99,
+      "img": "./images/CatToy.png",
+      "category": "Cat Toys",
+      "description": "Our interactive cat toy is designed to provide endless hours of entertainment for your furry friend. With its combination of feathers and bells, this toy stimulates your cat's natural hunting instincts and keeps them engaged and active. Its durable construction ensures that it can withstand even the most enthusiastic playtime, and its lightweight design makes it easy for your cat to carry and toss around. Whether you're looking to bond with your cat or just keep them entertained while you're away, our interactive cat toy is the perfect solution.",
+      "stock": 30
+    },
+    {
+      "id": 6,
+      "title": "Cat tunnel with hanging toy",
+      "price": 19.99,
+      "img": "./images/CatTunnel.png",
+      "category": "Cat Toys",
+      "description": "Our cat tunnel with hanging toy is the perfect addition to any cat owner's collection of toys. This spacious tunnel provides a safe and secure space for your cat to play, explore, and relax. The included hanging toy adds an extra element of excitement, encouraging your cat to jump, pounce, and play. With its sturdy construction and durable materials, this cat tunnel is built to last and withstand even the most rambunctious playtime. Whether your cat is a curious kitten or a seasoned explorer, they'll love the endless entertainment our cat tunnel with hanging toy provides. ",
+      "stock": 5
+    },
+    {
+      "id": 7,
+      "title": "Brush for long-haired cats",
+      "price": 8.99,
+      "img": "./images/CatBrush.png",
+      "category": "Cat Accesories",
+      "description": "Our soft brush for long-haired cats is an essential tool for keeping your feline friend's coat looking healthy and shiny. Made from high-quality materials, this brush is gentle on your cat's skin and helps to prevent tangles and matting. Its soft bristles effectively remove loose hair and debris from your cat's fur, while stimulating blood flow and promoting a healthy, lustrous coat. With its ergonomic design and comfortable grip, this brush is easy to use and perfect for both you and your cat. Whether your cat has long, flowing locks or a fluffy coat, our brush is the perfect accessory for maintaining their grooming routine.",
+      "stock": 12
+    },
+    {
+      "id": 8,
+      "title": "Reflective Cat Collar",
+      "price": 5.99,
+      "img": "./images/CatCollar.png",
+      "category": "Cat Accesories",
+      "description": "Our reflective cat collar is the perfect accessory for keeping your feline friend safe and visible at all times. Made from high-quality materials, this collar features a reflective strip that increases your cat's visibility in low-light conditions. The safety buckle ensures that the collar stays securely in place, while also allowing for quick and easy release in case of emergency. With its adjustable design, this collar fits comfortably around your cat's neck and is suitable for cats of all sizes. Whether you're taking your cat for a walk, or simply want to make sure they're visible in your home or yard, our reflective cat collar is the perfect solution.",
+      "stock": 18
+    }
+  ]
