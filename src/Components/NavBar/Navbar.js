@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className="navbar">
       <ul className={`nav_items ${isOpen && "open"}`}>
         <li className="dropdown">
-          <Link to="/products" className="hover-underline-animation">SHOP{" "}
+          <Link to="/" className="hover-underline-animation">SHOP
             <button className={openDropdown ? "close-dropdown" : "open-dropdown"} onClick={()=>setOpenDropdown(!openDropdown)}>
               <VscAdd/>
             </button>

@@ -2,7 +2,6 @@ import React from 'react'
 import ItemCounter from './ItemCounter/ItemCounter'
 
 const ItemDetail = ({item}) => {
-    console.log(item)
   return (
     <div className='product-container'>
         <div className="product-img"><img src={item.img} alt={item.title} /></div>
