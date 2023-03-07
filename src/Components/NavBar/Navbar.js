@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import CartWidget from "./Cart/CartWidget";
+import CartWidget from "./CartWidget/CartWidget";
 import { GrSearch } from "react-icons/gr";
 import { VscAdd } from "react-icons/vsc";
 
@@ -28,8 +28,8 @@ const Navbar = () => {
             </ul>
           </div>
         </li>
-        <li><a href="#" className="hover-underline-animation"> ABOUT</a></li>
-        <li><a href="#" className="hover-underline-animation"> FAQ</a></li>
+        <li><Link to="/about" href="#" className="hover-underline-animation"> ABOUT</Link></li>
+        <li><Link to="/faqs" href="#" className="hover-underline-animation"> FAQ</Link></li>
       </ul>
       <div
         className={`nav_toggle ${isOpen && "open"}`}
@@ -39,7 +39,7 @@ const Navbar = () => {
         <span></span>
         <span></span>
       </div>
-      <div className="nav_logo"> Cattitude </div>
+      <Link to="/" className="nav_logo"> Cattitude </Link>
       <div className="nav_icons">
         <div className="searcher">
           <input type="search" placeholder="SEARCH"/>
@@ -47,7 +47,7 @@ const Navbar = () => {
             <GrSearch />
           </button>
         </div >
-        <CartWidget />
+        <Link to="/cart"><CartWidget /></Link >
       </div>
     </div>
   );

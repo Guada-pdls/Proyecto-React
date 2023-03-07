@@ -1,7 +1,8 @@
 import React from 'react'
-import ItemCounter from './ItemCounter/ItemCounter'
+import ItemCount from './ItemCount/ItemCount'
 
 const ItemDetail = ({item}) => {
+
   return (
     <div className='product-container'>
         <div className="product-img"><img src={item.img} alt={item.title} /></div>
@@ -10,7 +11,7 @@ const ItemDetail = ({item}) => {
             <p className="product-price">$ {item.price}</p><br />
             <hr /><br />
             <p className="product-description">{item.description}</p><br /><hr />
-            <ItemCounter stock={item.stock}/>
+            <ItemCount item={item}/>
         </div>
     </div>
   )
