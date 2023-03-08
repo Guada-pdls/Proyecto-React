@@ -4,19 +4,8 @@ import { VscAdd, VscRemove } from "react-icons/vsc";
 import { CartContext } from "../../../Context/CartContext";
 
 const ItemCount = ({ item }) => {
-  
-  // const {isInCart, addProduct, selectedProduct} = useContext(CartContext)
+
   const { getInitial, addProduct} = useContext(CartContext)
-
-  // let initial = 1
-
-  // if (selectedProduct !== undefined) {
-  //   console.log(isInCart(selectedProduct.id))
-  //   // if (isInCart(selectedProduct.id)) {
-  //   //   initial = selectedProduct.quantity
-  //   // } 
-  //   // initial = 1
-  // }
 
   let initial = getInitial(item.id)
   let [counter, setCounter] = useState();

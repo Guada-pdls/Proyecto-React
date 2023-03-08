@@ -4,11 +4,11 @@ import { CartContext } from "../../../Context/CartContext";
 import { GrCart } from "react-icons/gr";
 
 const CartWidget = () => {
-  const context = useContext(CartContext)
+  const {cart} = useContext(CartContext)
   return (
     <button className="cart">
       <GrCart />
-      {context.length === 0 ? "" : <span className="cart_num">{context.length}</span>}
+      {cart.length === 0 ? "" : <span className="cart_num">{cart.length}</span>}
     </button>
   );
 }
